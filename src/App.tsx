@@ -9,7 +9,7 @@ function App() {
 
   return (
     <div>
-      <button onClick={(e) => setCount((previousCount) => previousCount + 1)}>
+      <button onClick={() => setCount((previousCount) => previousCount + 1)}>
         {count}
       </button>
     </div>
